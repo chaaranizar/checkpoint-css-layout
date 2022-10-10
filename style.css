@@ -1,0 +1,291 @@
+*{
+       font-family: Roboto, sans-serif;
+       box-sizing: border-box;
+    }
+header{
+    display: inline;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.navigation img{
+    width:300px;
+    height: 100px;
+}
+.nav{
+    display: flex;
+   }
+.main menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main menu li{
+    list-style: none;
+}
+.about{
+    list-style: none;
+}
+.is-current{
+    color: #00b39b;
+    text-decoration: none;
+    font-weight: bold;
+}
+.career{
+    list-style: none;
+}
+.career a{
+    text-decoration: none;
+    color: #747474;
+}
+.maim menu li a{
+    text-decoration: none;
+}
+.dropdown{
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+.dropdown a{
+text-decoration: none;
+color: #747474;
+
+}
+.dropdown-content {
+        display: none;
+    position:absolute;
+    background-color: white;
+    min-width: 190px;
+    box-shadow:0 8px 16px 0 #383838;
+    padding: 0 2px;
+    z-index: 1;
+    color: #747474;
+}
+.dropdown-content li{
+    list-style: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    font-size: 11px;
+    }
+.dropdown-content a:hover{
+    background-color: #00b39b;
+}
+/*introduction part*/
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 10%;
+}
+.introduction div{
+    display: flex;
+    padding: 3%;
+    line-height: 1.75;
+    justify-content: space-between;
+}
+.introduction h1{
+    font-size: 36px;
+    color: #00b39b;
+    padding: 2%;
+    font-weight: lighter;
+}
+.introduction div p{
+    width: 45%;
+    font-weight: normal;
+}
+.introduction img{
+    width: 50px;
+}
+.card1{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #00b39b;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5%;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: auto;
+}
+.card1 i{
+    font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0px;
+        color: white;
+}
+h5{
+    color: white;
+        font-size: 23px;
+        margin-bottom: 15px;
+}
+.pra p{
+    color: white;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 25px;
+}
+.card1 .button{
+    background-color:#00b39b;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border: 2px solid transparent;
+        padding: 9px 22px;
+        transition: .4s;
+        cursor: pointer;
+}
+.card1:hover{
+    box-shadow: 0 5px 15px 0 rgb(2, 50, 50), 0 6px 20px 0 rgb(2, 50, 50);
+}
+.card2{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #3d83df;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5%;
+}
+.card2 i{
+    font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0px;
+        color: white;
+}
+.card2 .button{
+    background-color:#3d83df;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border: 2px solid transparent;
+        padding: 9px 22px;
+        transition: .4s;
+        cursor: pointer;
+}
+.card2:hover{
+    box-shadow: 0 7px 18px 0 rgb(56, 56, 202), 0 8px 20px rgb(56, 56, 202);
+}
+.card3{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #747474;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5%;
+}
+.card3 i{
+    font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0px;
+        color: white;
+}
+.card3 .button{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 9px 22px;
+    transition: .4s;
+    cursor: pointer;
+}
+.card3:hover{
+        box-shadow: 0 7px 18px 0 #383838, 0 8px 20px #383838 ;
+}
+/*Countries part*/
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2% 10%;
+
+}
+.country{
+    margin-bottom: 2%;
+    border-radius: 2%;
+}
+.country div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+}
+.country img{
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+.country div button{
+    color: white;
+    background-color: #3d83df;
+    padding: 2%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.country:hover{
+    box-shadow: 0 4px 8px 0 rgb(81, 77, 77), 0 6px 20px 0 rgb(81, 78, 78);
+    cursor: pointer;
+}
+.interest{
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+      text-align: center;
+}
+.interest p{
+    font-size: 35px;
+    font-weight: lighter;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.interest button{
+    background-color: #3d83df;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 15%;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+   margin-left: 43%;
+    
+}
+.interest button:hover{
+    box-shadow: 0 7px 20px rgb(25, 25, 113), 0 8px 20px 0 rgb(25, 25, 113);
+    cursor: pointer;
+    align-items: center;
+}
+footer{
+    font-size: 12px;
+    color: #ababab;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+}
